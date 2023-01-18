@@ -27,10 +27,6 @@ const fetchPhotos = async () => {
 
 const {photos} = data;
 
-const allproduct = photos.map(photo => ({
-    smallImage: photo.src.medium
-}))
-
 const allProduct = photos.map(photo => ({
     smallImage:photo.src.medium,
     tinyImage:photo.src.tiny,
