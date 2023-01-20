@@ -8,8 +8,6 @@ import Visit from "./Visit";
 import notfound from "./notfound";
 
 
-
-
 const routing = (
   <Router>
     <div>
